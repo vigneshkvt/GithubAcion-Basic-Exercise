@@ -1,3 +1,4 @@
+# ...existing code...
 name: Handle issue events
 on: issues
 jobs:
@@ -5,4 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Output issue information
-        run: echo "Issue : ${{ github.event }}"
+        run: echo "Issue: ${{ github.event }}"
+# ...existing code...
